@@ -1,0 +1,57 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+        sans-serif;
+    background-image: linear-gradient(to bottom, #87ceeb, #1e90ff);
+    /* Adjusted the gradient direction to 'to bottom' */
+    font-weight: bold;
+    color: #333; /* Changed text color to a dark shade for better contrast */
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ffbf00; /* Changed h1 color to a golden shade for better contrast */
+}
+
+.message {
+    font-style: italic;
+    color: #555; /* Adjusted message text color to a darker shade */
+}
+
+.cards,
+.sum,
+.player {
+    margin-bottom: 10px;
+    color: #555; /* Adjusted text color to a darker shade */
+}
+
+.btn {
+    color: white;
+    width: 150px;
+    background-color: #1e90ff; /* Changed button background color to match body gradient */
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #187bcd; /* Darker shade of blue for button hover effect */
+}

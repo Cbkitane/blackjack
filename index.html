@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Websyst Activity</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="player">Money: P<span id="player-el">500</span></div>
+            <h1>Blackjack</h1>
+            <p class="message" id="message-el">Want to play a round?</p>
+            <div class="cards">Cards: <span id="cards-el"></span></div>
+            <div class="sum">Sum: <span id="sum-el"></span></div>
+            <div class="buttons">
+                <button class="btn start-btn" onclick="startGame()">
+                    START GAME
+                </button>
+                <button class="btn new-card-btn" onclick="newCard()">
+                    NEW CARD
+                </button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
